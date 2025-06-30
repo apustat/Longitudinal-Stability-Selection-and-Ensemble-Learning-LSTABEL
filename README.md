@@ -1,4 +1,4 @@
-# Longitudinal-tability-Selection-and-Ensemble-Learning-LSTABEL-
+# Longitudinal-Stability-Selection-and-Ensemble-Learning-LSTABEL-
 The repository contains the code written in R for the project where we proposed a novel method combining stability selection and ensemble learning for longitudinal variable selection and prediction.
 
 Objectives: Neurodegenerative diseases such as Alzheimer’s disease (AD) would benefit if detected at an early stage when therapeutic interventions might cure the disease or halt its progression. However, current biomarkers, particularly those predicting cognitive decline measures like ADAS13, often suffer from overfitting and poor generalizability in validation. In this context, identifying robust microbial metabolomic biomarkers in longitudinal studies remains largely underexplored.

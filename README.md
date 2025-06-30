@@ -1,1 +1,10 @@
 # Longitudinal-tability-Selection-and-Ensemble-Learning-LSTABEL-
+The repository contains the code written in R for the project where we proposed a novel method combining stability selection and ensemble learning for longitudinal variable selection and prediction.
+
+Objectives: Neurodegenerative diseases such as Alzheimer’s disease (AD) would benefit if detected at an early stage when therapeutic interventions might cure the disease or halt its progression. However, current biomarkers, particularly those predicting cognitive decline measures like ADAS13, often suffer from overfitting and poor generalizability in validation. In this context, identifying robust microbial metabolomic biomarkers in longitudinal studies remains largely underexplored.
+
+Methods: We propose a novel hybrid method, Longitudinal Stability Selection Ensemble Learning (LSTABEL), which combines the strengths of stability selection and ensemble learning. Stability selection helps control false discoveries and reduces overfitting by identifying consistently selected biomarkers across resampled datasets. Ensemble learning enhances predictive robustness by aggregating multiple candidate models, even in the presence of model misspecification. LSTABEL constructs a stable set of variables and produces point predictions through a weighted average of estimates from these models.
+
+Results: Extensive simulation studies demonstrate that LSTABEL outperforms or performs comparably to existing methods across key evaluation metrics, including true positive rate (TPR), false discovery rate (FDR), and mean squared prediction error (MSPE). Applied to real-world data from the Alzheimer’s Disease Neuroimaging Initiative (ADNI), LSTABEL identifies a concise biomarker set while achieving competitive prediction accuracy.
+
+Conclusions: We developed a robust variable selection and prediction method tailored to longitudinal data settings. LSTABEL performs well across diverse data structures and real-world applications, offering a promising framework for biomarker discovery and early disease prediction that can potentially improve therapeutic innovation.

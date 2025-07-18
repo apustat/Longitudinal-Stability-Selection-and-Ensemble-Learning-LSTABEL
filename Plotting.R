@@ -1,10 +1,10 @@
 library(ggplot2)
 library(dplyr)
 
-d1=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/indep-n=600-p=200-sig2u=0.8.csv")
-d2=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/indep-n=600-p=800-sig2u=0.8.csv")
-d3=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/indep-n=600-p=200-sig2u=1.2.csv")
-d4=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/indep-n=600-p=800-sig2u=1.2.csv")
+d1=read.csv("C:/Users/.../R code/indep-n=600-p=200-sig2u=0.8.csv")
+d2=read.csv("C:/Users/.../R code/indep-n=600-p=800-sig2u=0.8.csv")
+d3=read.csv("C:/Users/.../R code/indep-n=600-p=200-sig2u=1.2.csv")
+d4=read.csv("C:/Users/.../R code/indep-n=600-p=800-sig2u=1.2.csv")
 
 apply(d1, 2, mean); apply(d1, 2, sd)
 apply(d2, 2, mean); apply(d2, 2, sd)
@@ -47,10 +47,10 @@ ggplot(data1, aes(x = Method, y = MSE, fill = factor(Sigma_squared))) +
 library(ggplot2)
 library(dplyr)
 
-d5=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/indep-n=1000-p=500-sig2u=0.8.csv")
-d6=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/indep-n=1000-p=1500-sig2u=0.8.csv")
-d7=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/indep-n=1000-p=500-sig2u=1.2.csv")
-d8=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/indep-n=1000-p=1500-sig2u=1.2.csv")
+d5=read.csv("C:/Users/.../R code/indep-n=1000-p=500-sig2u=0.8.csv")
+d6=read.csv("C:/Users/.../R code/indep-n=1000-p=1500-sig2u=0.8.csv")
+d7=read.csv("C:/Users/.../R code/indep-n=1000-p=500-sig2u=1.2.csv")
+d8=read.csv("C:/Users/.../R code/indep-n=1000-p=1500-sig2u=1.2.csv")
 
 apply(d5, 2, mean); apply(d5, 2, sd)
 apply(d6, 2, mean); apply(d6, 2, sd)
@@ -91,10 +91,10 @@ ggplot(data2, aes(x = Method, y = MSE, fill = factor(Sigma_squared))) +
 library(ggplot2)
 library(dplyr)
 
-d9=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/corr-n=600-p=200-sig2u=0.8.csv")
-d10=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/corr-n=600-p=800-sig2u=0.8.csv")
-d11=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/corr-n=600-p=200-sig2u=1.2.csv")
-d12=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/corr-n=600-p=800-sig2u=1.2.csv")
+d9=read.csv("C:/Users/.../R code/corr-n=600-p=200-sig2u=0.8.csv")
+d10=read.csv("C:/Users/.../R code/corr-n=600-p=800-sig2u=0.8.csv")
+d11=read.csv("C:/Users/.../R code/corr-n=600-p=200-sig2u=1.2.csv")
+d12=read.csv("C:/Users/.../R code/corr-n=600-p=800-sig2u=1.2.csv")
 
 apply(d9, 2, mean); apply(d9, 2, sd)
 apply(d10, 2, mean); apply(d10, 2, sd)
@@ -136,10 +136,10 @@ ggplot(data3, aes(x = Method, y = MSE, fill = factor(Sigma_squared))) +
 library(ggplot2)
 library(dplyr)
 
-d13=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/corr-n=1000-p=500-sig2u=0.8.csv")
-d14=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/corr-n=1000-p=1500-sig2u=0.8.csv")
-d15=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/corr-n=1000-p=500-sig2u=1.2.csv")
-d16=read.csv("C:/Users/apust/OneDrive - University of Nebraska Medical Center/Desktop/Longitudinal Project/R code/corr-n=1000-p=1500-sig2u=1.2.csv")
+d13=read.csv("C:/Users/.../R code/corr-n=1000-p=500-sig2u=0.8.csv")
+d14=read.csv("C:/Users/.../R code/corr-n=1000-p=1500-sig2u=0.8.csv")
+d15=read.csv("C:/Users/.../R code/corr-n=1000-p=500-sig2u=1.2.csv")
+d16=read.csv("C:/Users/.../R code/corr-n=1000-p=1500-sig2u=1.2.csv")
 
 apply(d13, 2, mean); apply(d13, 2, sd)
 apply(d14, 2, mean); apply(d14, 2, sd)

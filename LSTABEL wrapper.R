@@ -67,7 +67,7 @@ glmm_wrapper=function(N, p, m, rho_cov, rho_rm, sigma2_u, threshold, iter, B, tr
     X <- mvrnorm(N * m, mu = rep(0, p), Sigma = Sigma_cov)
     
     b = matrix(0,p,1)
-    b[1:8] = c(-1,1,-1,1,-1,1,-1,1)#fixed effect, p*1
+    b[1:8] = c(-1,1,-1,1,-1,1,-1,1)#later changed it to c(-1,-0.9,0.9,1,-1.1,1,-1,1.1) (fixed effect, p*1)
     Z=matrix(0, nrow=N*m, ncol=N) #n*Nq=1800*600, only random intercept is considered
     for (col_index in seq_len(N)) {
       # Calculate the row range for each column based on m
@@ -395,3 +395,4 @@ result1=as.data.frame(lapply(result, as.numeric))
 apply(result1, 2, mean)
 
 result2=as.data.frame(lapply(result1[,c(-1,-17)], as.numeric))
+
